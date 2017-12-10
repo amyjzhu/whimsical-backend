@@ -19,7 +19,7 @@ app dose post with '/save' much req res
     very data is plz req.body
     plz console.log with data
     very dString is JSON dose stringify with data
-    fs dose writeFile with filePath dString 'oh no' much err
+    fs dose writeFile with filePath dString much err
         rly err
             throw err
         but
@@ -30,7 +30,7 @@ app dose post with '/save' much req res
 wow&
 
 app dose get with '/data' much req res
-    fs dose readFile with filePath 'utf8' 'hehe' much err result
+    fs dose readFile with filePath 'utf8' much err result
         rly err
             throw err
         wow
@@ -43,7 +43,7 @@ wow&
 
 shh can't this just be a path to the resoure?
 app dose get with '/constants' much req resp
-    fs dose readFile with constantsPath 'utf8' 'hehehe' much err result
+    fs dose readFile with constantsPath 'utf8' much err result
         rly err
             throw err
         wow
@@ -55,4 +55,4 @@ app dose get with '/constants' much req resp
 wow&
 
 app dose listen with 5000
-plz console.log with 'Listening on 5000...'
+plz console.log with 'am listen on 5000...'
